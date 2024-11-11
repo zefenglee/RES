@@ -22,7 +22,7 @@ This script uses the **limma** package to perform differential expression analys
 #### Usage
 Run the script in R:
 ```R
-Rscript limma_DEA_code.R
+Rscript limma_DEA_code.R```
 
 #### 1.2 edgeR_DEA_code.R
 This script utilizes the edgeR package for differential expression analysis, ideal for RNA-seq count data, especially for datasets with varying sequencing depths.
