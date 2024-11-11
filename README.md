@@ -26,7 +26,7 @@ Rscript limma_DEA_code.R
 ```
 
 ### 1.2 edgeR_DEA_code.R
-This script utilizes the edgeR package for differential expression analysis, ideal for RNA-seq count data, especially for datasets with varying sequencing depths.
+This script utilizes the **edgeR** package for differential expression analysis, ideal for RNA-seq count data, especially for datasets with varying sequencing depths.
 
 #### Usage
 Run the script in R:
@@ -36,7 +36,7 @@ Rscript edgeR_DEA_code.R
 ```
 
 ### 1.3 DESeq2_DEA_code.R
-The DESeq2 package is another powerful tool for differential expression analysis of RNA-seq data, focusing on count-based data normalization.
+The **DESeq2** package is another powerful tool for differential expression analysis of RNA-seq data, focusing on count-based data normalization.
 
 #### Usage
 Run the script in R:
@@ -47,7 +47,7 @@ Rscript DESeq2_DEA_code.R
 
 ## Pathway Enrichment Analysis
 ### 2.1 GO&KEGG_pathway.R
-This script performs Gene Ontology (GO) and KEGG pathway enrichment analyses based on differential expression results. It helps identify key biological processes and pathways associated with gene expression changes.
+This script performs **Gene Ontology (GO)** and **KEGG** pathway enrichment analyses based on differential expression results. It helps identify key biological processes and pathways associated with gene expression changes.
 
 #### Usage
 Run the script in R:
@@ -57,7 +57,7 @@ Rscript GO&KEGG_pathway.R
 ```
 ## Feature Selection and Modeling
 ### 3.1 RFE
-The RFE.py script uses Recursive Feature Elimination (RFE) to select the most relevant features for building predictive models. RFE helps reduce the number of features by recursively removing the least important features.
+The RFE.py script uses **Recursive Feature Elimination (RFE)** to select the most relevant features for building predictive models. RFE helps reduce the number of features by recursively removing the least important features.
 
 #### Usage
 Run the script in Python:
